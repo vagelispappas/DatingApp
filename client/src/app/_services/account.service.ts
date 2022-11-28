@@ -1,8 +1,7 @@
 import { HttpClient } from '@angular/common/http';
-import { ThrowStmt } from '@angular/compiler';
 import { Injectable } from '@angular/core';
 import { BehaviorSubject } from 'rxjs/internal/BehaviorSubject';
-import { map, catchError } from 'rxjs/operators';
+import { map } from 'rxjs/operators';
 import { User } from '../_models/user';
 
 @Injectable({
